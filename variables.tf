@@ -2,5 +2,5 @@ variable "name" {
   type = string
 }
 variable "tags" {
-  type = list
+  default = ["tag1", "tag2"]
 }
