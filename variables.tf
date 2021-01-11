@@ -1,2 +1,6 @@
-variable "name" {}
-variable "tags" {}
+variable "name" {
+  type = string
+}
+variable "tags" {
+  type = list
+}
